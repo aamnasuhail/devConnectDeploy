@@ -1,0 +1,118 @@
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.form {
+  background: #fff;
+  padding: 32px 40px;
+  transition: 0.3s ease-in-out all;
+}
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  padding: 0.6rem 1.2rem;
+  border-radius: 9px;
+  background: #e6e6e7;
+  border: 1px solid #b3b3b7;
+  outline-color: #a1a3f7;
+  font-family: inherit;
+  font-size: 14px;
+}
+.btn {
+  cursor: pointer;
+  color: #fff;
+  background: #6366f1;
+  border: transparent;
+  border-radius: 9px;
+  letter-spacing: 1px;
+  padding: 6px 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.btn:hover {
+  background: #4f52c1;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.form-input,
+.form-select,
+.btn-block {
+  height: 35px;
+}
+.form-row {
+  margin-bottom: 16px;
+}
+
+.form-textarea {
+  height: 112px;
+}
+
+h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-center {
+  display: grid;
+  row-gap: 5px;
+}
+
+.form-center input[type="file"]::file-selector-button {
+  cursor: pointer;
+  color: #fff;
+  background: #6366f1;
+  border: transparent;
+  border-radius: 9px;
+  letter-spacing: 1px;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.form-center input[type="file"]::file-selector-button:hover {
+  background: #4f52c1;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.form-center .image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+}
+
+.form-center .image img {
+  width: 100%;
+}
+
+.form-center .image-output {
+  display: block;
+  padding: 10px;
+}
+
+.form-center button {
+  margin-top: 3px;
+  height: 42px;
+}

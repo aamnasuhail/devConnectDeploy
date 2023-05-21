@@ -1,0 +1,116 @@
+.chatBot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #caccfb;
+  color: #6366f1;
+  height: 100vh;
+}
+.chat-head {
+  text-align: center;
+}
+.message-history {
+  margin-top: 100px;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.gpt-para {
+  display: block;
+  background-color: #fff;
+  max-width: 70%;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.gpt-para span {
+  margin: 5px;
+}
+
+.gpt-para span:first-child {
+  margin-right: 0;
+}
+
+.user_msg {
+  text-align: right;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.gpt-form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.app-logo {
+  display: block;
+  margin: 10px auto 10px auto;
+  max-width: 60px;
+  padding: 10px;
+}
+
+.input-wrapper {
+  padding: 15px 20px;
+}
+.input-wrapper form img {
+  max-width: 50px;
+}
+
+.input-wrapper form input {
+  background-color: #fff;
+  color: #1a1b28;
+  border: 1px solid #6366f1;
+  font-size: 22px;
+  padding: 10px 15px;
+  flex: 1;
+  border-radius: 9px;
+}
+
+.input-wrapper form button {
+  border: 1px solid #000;
+  font-size: 22px;
+  padding: 10px 30px;
+  background-color: #fb61e1;
+  color: #000;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.input-wrapper form button:hover {
+  opacity: 0.8;
+}
+
+.response-area {
+  font-size: 24px;
+  color: #323379;
+  max-width: 1200px;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
+.footer {
+  font-size: 34px;
+  letter-spacing: 4px;
+  margin: 50px 0 40px 0;
+  opacity: 0.5;
+  text-align: center;
+  color: #000;
+}
+
+.cg-logo.loading {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
